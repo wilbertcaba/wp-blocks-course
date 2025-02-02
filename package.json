@@ -1,0 +1,21 @@
+{
+	"name": "firstblock",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"author": "Wilbert Caba",
+	"license": "ISC",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start",
+		"format": "wp-scripts format",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.10.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^14.12.0",
+		"@wordpress/blocks": "^14.6.0"
+	}
+}
